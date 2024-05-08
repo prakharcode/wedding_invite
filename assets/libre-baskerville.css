@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i');
+
+.header__main,
+.menu__names {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.1em;
+  line-height: 1.25;
+  text-transform: none;
+}
+
+.menu__names {
+  font-size: x-large;
+}
+
+.menu__name:first-child {
+  margin-right: -0.1em;
+}

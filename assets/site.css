@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+@font-face {
+  font-family: 'melbourne-icons';
+  src:  url('melbourne-icons.eot?9uwhi');
+  src:  url('melbourne-icons.eot?9uwhi#iefix') format('embedded-opentype'),
+    url('melbourne-icons.woff2?9uwhi') format('woff2'),
+    url('melbourne-icons.ttf?9uwhi') format('truetype'),
+    url('melbourne-icons.woff?9uwhi') format('woff'),
+    url('melbourne-icons.svg?9uwhi#melbourne-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  color: #b18969;
+  background: #ffede3;
+}
+
+/* Site */
+
+.site {
+  font-family: "Great Vibes", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0.05em;
+  line-height: 1.8;
+  color: #b18969;
+  background: #ffede3;
+}
+
+/* Menu */
+
+.menu {
+  font-family: "Great Vibes", sans-serif;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #b18969;
+  background: #ffede3;
+}
+
+.menu__names {
+  font-size: small;
+  font-weight: 300;
+}
+
+.menu__items {
+  color: #b18969;
+  background: #ffede3;
+}
+
+.menu__link {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.menu__link--rsvp {
+  border: 1px solid #b18969;
+}
+
+/* Header */
+
+.header__main {
+  font-family: "Great Vibes", serif;
+  font-size: 100px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 0.05em;
+  line-height: 1.25;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+.header__delimiter {
+  font-size: 50%;
+  font-weight: 400;
+  position: relative;
+  margin: 25px auto;
+  max-width: 500px;
+}
+
+.header__delimiter:before,
+.header__delimiter:after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 40%;
+  position: absolute;
+  top: 50%;
+  background: #b18969;
+}
+
+.header__delimiter:before {
+  left: 0;
+}
+
+.header__delimiter:after {
+  right: 0;
+}
+
+.header__and {
+  position: relative;
+  z-index: 1;
+}
+
+.header__date {
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+.header__button {
+  border: 1px solid #b18969;
+}
+
+/* Sections */
+
+.section__heading,
+.section__title,
+.section__label {
+  font-weight: 300;
+  line-height: 1.25;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+.section__label {
+  line-height: 2;
+  margin: 0;
+}
+
+.section__heading {
+  font-size: 60px;
+}
+
+.section__heading:before {
+  display: block;
+  font-size: 100px;
+  font-family: 'melbourne-icons';
+  line-height: 1;
+  user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+  color: #b18969;
+  content: '\e904';
+  margin-bottom: 50px;
+}
+
+.section__title {
+  font-size: 48px;
+}
+
+.section__label {
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 0.15em;
+}
+
+.section__box {
+  border: 1px solid #b18969;
+}
+
+.section__button {
+  color: #b18969;
+  background: transparent;
+  border: 1px solid #b18969;
+}
+
+.section__button:hover {
+  color: #b18969;
+}
+
+.section__input {
+  border: 1px solid #b18969;
+}
+
+.section__divider {
+  height: 3px;
+  color: #b18969;
+  background: #b18969;
+}
+
+/* Quote */
+
+.section--element-quote .section__text:before,
+.section--element-quote .section__text:after {
+  background: #b18969;
+}
+
+/* Timeline */
+
+.section--element-timeline {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.section--element-timeline:before {
+  background: #b18969;
+}
+
+.section--element-timeline:after {
+  border-color: #b18969;
+  background: #ffede3;
+}
+
+/* Place */
+
+.section--element-place .section__content {
+  color: #b18969;
+}
+
+/* Variations */
+
+.v2,
+.v2 .menu,
+.v2 .menu__items,
+.v2 .site,
+.v2 .header__and,
+.v2 .section__button,
+.v2 .section__button:hover,
+.v2 .section--element-place .section__content {
+  color: #d6b098;
+}
+
+.v2 .menu__link--rsvp {
+  border-color: #d6b098;
+}
+
+.v2 .section--element-quote .section__text:before,
+.v2 .section--element-quote .section__text:after {
+  background-color: #d6b098;
+}
+
+.v2,
+.v2 .menu,
+.v2 .menu__items,
+.v2 .site,
+.v2 .section--element-timeline:after {
+  background: #003748;
+}
+
+.v2 .section__input {
+  border-color: #d6b098;
+}
+
+/* Simplified */
+
+.is-simple .section__heading:before {
+  display: none;
+}
+
+/* Header overlay */
+
+.header--overlay,
+.header--overlay .header__and,
+.header--overlay .header__button {
+  color: #fff !important;
+}
+
+.header--overlay .header__delimiter:before,
+.header--overlay .header__delimiter:after {
+  background-color: #fff !important;
+}
+
+.header--overlay .header__button {
+  border-color: #fff !important;
+}
+
+.hero__image {
+    margin: auto;
+    width: auto;
+    height: 70vh;
+}
+
+#map {
+    height: 400px;
+}
