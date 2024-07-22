@@ -269,6 +269,10 @@ body {
     height: 71vh;
 }
 
+.section__image{
+    width: 7rem !important;
+}
+
 #map {
     height: 400px;
 }
